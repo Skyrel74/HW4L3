@@ -15,4 +15,9 @@ class MathTest {
         assertEquals(2, 4 / 2)
     }
 
+    @Test
+    fun multiplicationTest() {
+        assertEquals(4, 2 * 2)
+    }
+
 }
