@@ -5,6 +5,9 @@ import org.junit.Assert.*
 
 class MathTest {
 
-    
+    @Test
+    fun multiplicationTest() {
+        assertEquals(4, 2 * 2)
+    }
 
 }
