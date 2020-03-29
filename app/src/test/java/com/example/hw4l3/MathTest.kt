@@ -20,4 +20,8 @@ class MathTest {
         assertEquals(4, 2 * 2)
     }
 
+    @Test
+    fun subtractionTest() {
+        assertEquals(2, 4 - 2)
+    }
 }
