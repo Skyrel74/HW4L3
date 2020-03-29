@@ -10,4 +10,9 @@ class MathTest {
         assertEquals(4, 2 + 2)
     }
 
+    @Test
+    fun dividingTest() {
+        assertEquals(2, 4 / 2)
+    }
+
 }
