@@ -5,6 +5,9 @@ import org.junit.Assert.*
 
 class MathTest {
 
-    
+    @Test
+    fun dividingTest() {
+        assertEquals(2, 4 / 2)
+    }
 
 }
